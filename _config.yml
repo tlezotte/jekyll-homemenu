@@ -17,9 +17,9 @@ title: Department
 email: you@domain.net
 description: > # this means to ignore newlines until "baseurl:"
   Department Home Page
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://you.domain.net" # the base hostname & protocol for your site, e.g. http://example.com
-domain: "domain.net"
+baseurl: "jekyll-homemenu" # the subpath of your site, e.g. /blog
+url: "https://tlezotte.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+domain: "github.io"
 name: Department
 icon: "fa fa-building-o"
 logo: "department.png"
