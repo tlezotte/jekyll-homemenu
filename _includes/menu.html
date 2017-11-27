@@ -1,40 +1,58 @@
 {% assign sorted_pages = site.pages | sort:"weight" %}
 <!-- Collect the nav links, forms, and other content for toggling -->
 <ul class="nav navbar-nav">
-	<li data-container="body" data-toggle="popover" data-placement="bottom" data-content="Application"><a href="https://www.google.com">Application</a></li>
+	<li data-container="body" data-toggle="popover" data-placement="bottom" data-content="Pivotal Tracker"><a href="https://www.pivotaltracker.com">Pivotal</a></li>
 	<li data-container="body" data-toggle="popover" data-placement="bottom" data-content="Github"><a href="https://github.com/"><i class="fa fa-github" aria-hidden="true"></i></a>
 	</li>
+	<li data-container="body" data-toggle="popover" data-placement="bottom" data-content="Timeoff Calendar"><a href="https://daybreak.mc.vanderbilt.edu"><i class="fa fa-calendar" aria-hidden="true"></i></a></li>
 	<li data-container="body" data-toggle="popover" data-placement="bottom" data-content="Amazon Web Services"><a href="https://aws.amazon.com/"><i class="fa fa-amazon" aria-hidden="true"></i></a>
-  </li>
-	<li data-container="body" data-toggle="popover" data-placement="bottom" data-content="WordPress"><a href="https://wordpress.org/"><i class="fa fa-wordpress" aria-hidden="true"></i></a>
 	</li>
+	<li data-container="body" data-toggle="popover" data-placement="bottom" data-content="Pegasus Tickets">
+		<a href="https://pegasus.mc.vanderbilt.edu/Default.aspx"><i class="fa fa-ticket" aria-hidden="true"></i></a></li>
 	<li>
 		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-object-group" aria-hidden="true"></i> <span
-                class="caret"></span></a>
+                  class="caret"></span></a>
 		<ul class="dropdown-menu">
-			<li><a href="/layout/department.pdf">Department Layout</a></li>
-			<li><a href="/layout/cloud.pdf">Cloud Layout</a></li>
+			<li><a href="/layout/VICTR.pdf">VICTR Layout</a></li>
+			<li><a href="/layout/DER.pdf">DER Layout</a></li>
 		</ul>
+	</li>
+	<li id="departmentMenu">
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-archive" aria-hidden="true"></i> <span
+                  class="caret"></span></a>
+		<ul class="dropdown-menu">
+			<li><a href="/newsletters.html">Newsletters</a></li>
+			<li role="separator" class="divider"></li>
+			<li><a href="/logos.html">Logos</a></li>
+			<li><a href="/icons/">Icons</a></li>
+		</ul>
+	</li>
+	<li data-container="body" data-toggle="popover" data-placement="bottom" data-content="Splunk"><a href="https://splunk.ea.vanderbilt.edu/"><i class="fa fa-eye" aria-hidden="true"></i></a>
 	</li>
 	<li id="database">
 		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-database" aria-hidden="true"></i> <span
-                class="caret"></span></a>
+                  class="caret"></span></a>
 		<ul class="dropdown-menu">
-			<li><a href="https://www.phpmyadmin.net/">phpMyAdmin</a></li>
-			<li><a href="https://www.webyog.com/product/monyog">monyog</a></li>
+			<li><a href="https://ori20lp.ea.vanderbilt.edu/pma/">phpMyAdmin</a></li>
+			<li><a href="https://ori20lp.ea.vanderbilt.edu/monyog/">monyog</a></li>
 		</ul>
 	</li>
 	<li id="analytics">
 		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bar-chart" aria-hidden="true"></i> <span
-                class="caret"></span></a>
+                  class="caret"></span></a>
 		<ul class="dropdown-menu">
 			<li><a href="https://www.google.com/analytics/">Google Analytics</a></li>
+			<li><a href="https://victrstats.mc.vanderbilt.edu/">piwik</a></li>
 		</ul>
+	</li>
+
+	<li data-container="body" data-toggle="popover" data-placement="bottom" data-content="StatusCake"><a href="https://statuscake.com/"><i class="fa fa-birthday-cake" aria-hidden="true"></i></a>
 	</li>
 	<li id="documentation">
 		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-book" aria-hidden="true"></i> <span
-                class="caret"></span></a>
+                  class="caret"></span></a>
 		<ul class="dropdown-menu">
+			<li><a href="https://github.com/vanderbilt/victrcore/wiki">Wiki</a></li>
 			<li><a href="/styleguide.html">CSS Styleguide</a></li>
 			<li><a href="/jsdoc.html">JavaScript documentation</a></li>
 		</ul>

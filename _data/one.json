@@ -1,43 +1,77 @@
 [{
-    "group": "Apache",
-    "logo": "apache.png",
-    "env": [{
-        "url": "http://www.apache.org/",
-        "name": "PROD"
-    }, {
-        "url": "http://www.apache.org/",
-        "name": "TEST"
-    }, {
-        "url": "http://www.apache.org/",
-        "name": "DEMO"
-    }]
-}, {
-  "group": "PHP",
-  "logo": "php.png",
+  "group": "REDCap",
+  "icon": "fa-heartbeat",
+  "logo": "redcap.png",
   "env": [{
-      "url": "http://www.php.net/",
+      "url": "https://redcap.vanderbilt.edu/",
       "name": "PROD"
   }, {
-      "url": "http://www.php.net/",
+      "url": "https://redcaptest.vanderbilt.edu/",
       "name": "TEST"
   }, {
-      "url": "http://www.php.net/",
-      "name": "DEV"
+      "url": "https://redcapdemo.vanderbilt.edu/",
+      "name": "DEMO"
+  }]
+},{
+  "group": "StarBRITE",
+  "icon": "fa-user-md",
+  "logo": "starbrite.png",
+  "env": [{
+      "url": "https://starbrite.vanderbilt.edu",
+      "name": "PROD"
+  }, {
+      "url": "https://starbritetest.vanderbilt.edu",
+      "name": "TEST"
   }]
 }, {
-    "group": "git",
-    "logo": "git.png",
-    "status": "legacy",
-    "env": [{
-        "url": "https://git-scm.com/",
-        "name": "PROD"
-    }]
+  "group": "eSMART",
+  "icon": "fa-users",
+  "logo": "esmart.png",
+  "env": [{
+      "url": "https://starbrite.vanderbilt.edu/s/uber/",
+      "name": "PROD"
+  }, {
+      "url": "https://starbritetest.vanderbilt.edu/s/uber/",
+      "name": "TEST"
+  }]
 }, {
-    "group": "solr",
-    "logo": "solr.png",
-    "status": "offline",
-    "env": [{
-        "url": "http://lucene.apache.org/solr/",
-        "name": "PROD"
-    }]
+  "group": "ResearchMatch",
+  "icon": "fa-picture-o",
+  "logo": "researchmatch.png",
+  "env": [{
+      "url": "https://www.researchmatch.org/",
+      "name": "PROD"
+  },{
+      "url": "https://test.researchmatch.org/",
+      "name": "TEST"
+  }]
+}, {
+  "group": "Rocket",
+  "icon": "fa-product-hunt",
+  "logo": "rocket.png",
+  "env": [{
+      "url": "https://starbrite.vanderbilt.edu/rocket/index.php",
+      "name": "PROD"
+  }, {
+      "url": "https://starbritetest.vanderbilt.edu/rocket/index.php",
+      "name": "TEST"
+  }]
+}, {
+  "group": "Legacy CME",
+  "icon": "fa-user-md",
+  "logo": "cme.png",
+  "status": "legacy",
+  "env": [{
+      "url": "https://cme-legacy.mc.vanderbilt.edu/login_n.php",
+      "name": "PROD"
+  }]
+}, {
+  "group": "Legacy vPEN",
+  "icon": "fa-power-off",
+  "logo": "vstar_pen.png",
+  "status": "offline",
+  "env": [{
+      "url": "https://knowledgemap.mc.vanderbilt.edu/cgi-bin/Portfolio/login.pl",
+      "name": "PROD"
+  }]
 }]
