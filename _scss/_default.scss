@@ -1,0 +1,256 @@
+// Web Fonts
+//
+// Google Web Font
+// - <a href="https://fonts.google.com/specimen/Pacifico" target="_blank">Pacifico - Homepage</a>
+// - <a href="https://fonts.google.com/specimen/Baloo+Bhaina" target="_blank">Baloo+Bhaina - Homepage</a>
+//
+// Markup:
+// <div class="spark {{modifier_class}}">TurnOut</div>
+// <div class="baloo {{modifier_class}}">TurnOut</div>
+//
+// .lighter - Light opacity
+//
+// Styleguide Fonts.Google
+.spark {
+  font-family: $font_0, $font_1;
+  font-size: 32px;
+}
+
+.baloo {
+  font-family: $font_2, $font_3;
+  font-size: 32px;
+}
+
+.lighter {
+  opacity: 0.05;
+}
+
+// Hyperlink
+//
+// Markup:
+// <a href="#">testing...</a>
+//
+// :hover - Change color and decoration
+//
+// Styleguide HTML.link
+a {
+  color: $color_deep_sea_green;
+  text-decoration: none;
+  &:hover {
+    color: #337ab7;
+    text-decoration: none;
+  }
+}
+
+.footer {
+  padding-top: 30px;
+  height: 75px;
+  /*background-color: #96774d;*/
+  /*text-align: center;*/
+  /*color: $color_white*/
+  a {
+    color: $color_white
+  }
+}
+
+.tabs-container {
+  padding: 12px;
+}
+
+.tab-pane {
+  padding-top: 20px;
+}
+
+.off-icon {
+  cursor: not-allowed;
+}
+
+.navbar-fixed-top {
+  background-color: $color_emperor;
+  border-color: $color_rangoon_green;
+  color: $color_white;
+  a {
+    color: $color_white !important;
+  }
+}
+
+.dropdown-menu a {
+  color: #000 !important;
+}
+
+// Hyperlink for navbar
+//
+// Markup:
+// <a href="#" class="nav open">testing...</a>
+//
+// :focus - Change color and decoration
+// :hover - Change color and decoration
+//
+// Styleguide Navigation.link
+.nav .open > a {
+  background-color: $color_rangoon_green !important;
+  &:focus, &:hover {
+    background-color: $color_rangoon_green !important;
+  }
+}
+
+// Customize Bootstrap navbar
+//
+// Markup:
+// <nav class="navbar navbar-default navbar-fixed-top"> </nav>
+//
+// :hover - Change color and decoration
+//
+// Styleguide Navigation.link
+.navbar-fixed-top a:hover {
+  color: $color_twilight_blue;
+}
+
+.trans_white {
+  background-color: transparent;
+  color: $color_mercury;
+  border-color: $color_mercury;
+}
+
+
+// Text field placeholder
+//
+// Markup:
+// <input type="text" placeholder="testing..." />
+//
+// ::-webkit-input-placeholder - Placeholder for webkit
+// ::-moz-placeholder - Placeholder for Firefox 19+
+// :-ms-input-placeholder - Placeholder for Microsoft
+// :-moz-placeholder - Placeholder for Firefox 18-
+//
+// Styleguide Forms.input
+input[type="text"] {
+  &::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: $color_pink_swan;
+  }
+  &::-moz-placeholder {
+    /* Firefox 19+ */
+    color: $color_pink_swan;
+  }
+  &:-ms-input-placeholder {
+    /* IE 10+ */
+    color: $color_pink_swan;
+  }
+  &:-moz-placeholder {
+    /* Firefox 18- */
+    color: $color_pink_swan;
+  }
+}
+
+// Section
+//
+// Markup:
+// <section class="{{modifier_class}}">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</section>
+//
+// .odd - different color <section>
+//
+// Styleguide HTML.section
+section {
+  //Instead of the line below you could use @include background-clip($clip)
+  background-clip: content-box;
+  &.odd {
+    background-color: $color_alabaster;
+  }
+}
+
+.grouping {
+  padding-top: 50px;
+}
+
+// iFrame
+//
+// Styleguide HTML.iframe
+iframe {
+  position: fixed;
+  background: $color_white;
+  border: none;
+  top: 50px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.thumbnail {
+  margin-bottom: 5px;
+}
+
+
+// Icon Item
+//
+// Markup:
+// <div class="icon-item"><a href="#" class="hover-menu"><img src="/assets/img/{{ site.logo }}"></a></div>
+//
+// :hover - Add broder around icon
+//
+// Styleguide Components.icon
+.icon-item {
+  display: flex;
+  width: 150px;
+  height: 125px;
+  justify-content: center;
+  border: 1px solid $dept-lightgray;
+  margin: 5px;
+  &:hover {
+    border: 1px solid darken($dept-lightgray, 20%);
+  }
+}
+
+// Icon Item container
+//
+// Markup:
+// <ul class="list"></ul>
+//
+// :hover - Add broder around icon
+//
+// Styleguide Components.icon.flexbox
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+// Icon Item Text Spacing
+//
+// Markup:
+// <div class="icon-links {{modifier_class}}"><a href="#">TEST</a></div>
+//
+// .space-around - Spread flexbox out evenly
+//
+// Styleguide Components.icon.flexbox_justification
+.icon-links {
+  display: flex;
+  height: 25px;
+  visibility: hidden;
+  &.space-around {
+    justify-content: space-around;
+    align-self: flex-end;
+  }
+}
+
+
+.legacy-edge {
+  border: 1px solid $dept-red;
+  &:hover {
+    border: 1px solid darken($dept-red, 20%);
+  }
+}
+
+#section_png {
+  background-color: lighten($dept-lightgray, 5%);
+  padding-bottom: 20px;
+  border-radius: 25px;
+}
+
+#section_download {
+  background-color: $color_dark_gray;
+  margin-top: 100px;
+  border-radius: 25px 25px 0 0;
+}

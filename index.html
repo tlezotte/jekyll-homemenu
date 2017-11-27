@@ -1,0 +1,60 @@
+---
+layout: basic
+title: Department Menu
+---
+
+<div id="homepage">
+	<div class="section">
+		<div class="col-md-10 col-md-offset-1">
+			<ul class="list">
+				{% for item in site.data.one %}
+				<li id="{{ item.group | replace: ' ', '' }}">
+					<div class="icon-item" id="{{ item.group | replace: ' ', '' }}Item">
+						{% if item.status and item.status != "on" %}
+            <h1 class="ribbon {{ item.status }}">{{ item.status | capitalize }}</h1>
+            {% endif %}
+						<a href="{{ item.env[0].url }}" class="hover-menu">
+                            <img src="/assets/img/{{ item.logo }}" alt="{{ item.group }}">
+                            <p class="text-center">{{ item.group }}</p>
+                        </a>
+					</div>
+					<div class="icon-links space-around" id="{{ item.group | replace: ' ', '' }}ItemEnv">
+            {% for link in item.env %}
+            {% if forloop.index != 1 %}
+            <a href="{{ link.url }}">{{ link.name }}</a>
+            {% endif %}
+            {% endfor %}
+					</div>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+
+	<div class="section">
+		<div class="col-md-10 col-md-offset-1">
+			<ul class="list">
+				{% for item in site.data.two %}
+				<li id="{{ item.group | replace: ' ', '' }}">
+					<div class="icon-item" id="{{ item.group | replace: ' ', '' }}Item">
+						{% if item.status and item.status != "on" %}
+            <h1 class="ribbon {{ item.status }}">{{ item.status | capitalize }}</h1>
+            {% endif %}
+						<a href="{{ item.env[0].url }}" class="hover-menu">
+                            <img src="/assets/img/{{ item.logo }}" alt="{{ item.group }}">
+                            <p class="text-center">{{ item.group }}</p>
+                        </a>
+					</div>
+					<div class="icon-links space-around" id="{{ item.group | replace: ' ', '' }}ItemEnv">
+            {% for link in item.env %}
+            {% if forloop.index != 1 %}
+            <a href="{{ link.url }}">{{ link.name }}</a>
+            {% endif %}
+            {% endfor %}
+					</div>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>

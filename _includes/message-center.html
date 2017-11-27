@@ -1,0 +1,10 @@
+<!-- message center -->
+<div class="container-fluid" id="message_center" style="display:none">
+	<div class="alert alert-info alert-dismissable">
+		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+		{% for update in site.data.updates limit:1 %}
+			<i class="icon-exclamation-sign"></i> <a href="{{ "/update.php" | relative_url }}"><strong>{{ update.date }}</strong>: {{ update.title }} {{ update.change }}. <small>Click for more information.</small></a>
+		{% endfor %}
+	</div>
+</div>
+<!-- message center -->

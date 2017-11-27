@@ -1,0 +1,43 @@
+[{
+    "group": "Apache",
+    "logo": "apache.png",
+    "env": [{
+        "url": "http://www.apache.org/",
+        "name": "PROD"
+    }, {
+        "url": "http://www.apache.org/",
+        "name": "TEST"
+    }, {
+        "url": "http://www.apache.org/",
+        "name": "DEMO"
+    }]
+}, {
+  "group": "PHP",
+  "logo": "php.png",
+  "env": [{
+      "url": "http://www.php.net/",
+      "name": "PROD"
+  }, {
+      "url": "http://www.php.net/",
+      "name": "TEST"
+  }, {
+      "url": "http://www.php.net/",
+      "name": "DEV"
+  }]
+}, {
+    "group": "git",
+    "logo": "git.png",
+    "status": "legacy",
+    "env": [{
+        "url": "https://git-scm.com/",
+        "name": "PROD"
+    }]
+}, {
+    "group": "solr",
+    "logo": "solr.png",
+    "status": "offline",
+    "env": [{
+        "url": "http://lucene.apache.org/solr/",
+        "name": "PROD"
+    }]
+}]

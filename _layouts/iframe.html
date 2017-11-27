@@ -1,0 +1,31 @@
+{% assign navbar = true %}
+{% assign navbar_right = false %}
+{% assign navbar_home = false %}
+{% assign navbar_email = false %}
+{% assign navbar_finder = false %}
+{% assign navbar_updates = false %}
+{% assign navbar_logout = false %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include header-top.html %}
+
+    {% include header-bottom.html %}
+</head>
+
+<body>
+{% include navbar.html %}
+
+{% include message-center.html %}
+
+<section id="mainContentArea" class="container-fluid">
+
+    <div class="col-md-10 col-md-offset-1">
+        <iframe src="{{ page.iframe }}" frameborder="0" height="100%" width="100%"></iframe>
+    </div>
+
+</section>
+</body>
+
+{% include footer.html %}
+</html>

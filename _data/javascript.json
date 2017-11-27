@@ -1,0 +1,19 @@
+[{
+  "comment": "jQuery",
+  "src": "//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+},{
+  "comment": "Bootstrap",
+  "src": "//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+},{
+  "comment": "eModal Window",
+  "src": "https://cdnjs.cloudflare.com/ajax/libs/eModal/1.2.65/eModal.min.js"
+},{
+  "comment": "Bootstrap Toggle Switch",
+  "src": "//gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"
+},{
+  "comment": "jQuery Cookie",
+  "src": "//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"
+},{
+  "comment": "jQuery fullPage",
+  "src": "//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.min.js"
+}]

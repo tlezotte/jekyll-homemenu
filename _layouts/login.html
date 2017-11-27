@@ -1,0 +1,31 @@
+{% include login.php %}
+
+{% assign navbar_right = true %}
+{% assign navbar_home = false %}
+{% assign navbar_email = false %}
+{% assign navbar_finder = false %}
+{% assign navbar_updates = false %}
+{% assign navbar_logout = false %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include header-top.html %}
+
+    {% include header-mobile.html %}
+
+    {% include header-bottom.html %}
+
+    {% stylesheet login %}
+</head>
+
+<body>
+{% include navbar-basic.html %}
+
+<section id="mainContentArea" class="container-fluid">
+
+    {{ content }}
+
+</section>
+</body>
+{% include footer.html %}
+</html>

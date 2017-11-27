@@ -1,0 +1,15 @@
+[{
+    "group": "mySQL",
+    "logo": "mysql.png",
+    "env": [{
+        "url": "https://www.mysql.com/",
+        "name": "PROD"
+    }]
+},{
+    "group": "PHP",
+    "logo": "php.png",
+    "env": [{
+        "url": "http://www.php.net/",
+        "name": "PROD"
+    }]
+}]

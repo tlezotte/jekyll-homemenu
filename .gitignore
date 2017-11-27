@@ -1,0 +1,11 @@
+_site/
+.sass-cache/
+.jekyll-metadata/
+node_modules/
+.idea/
+*.log*
+*.min.js
+*.map
+*-dist.css
+docs/styleguide/
+docs/js/

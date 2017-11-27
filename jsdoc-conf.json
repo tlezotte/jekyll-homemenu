@@ -1,0 +1,17 @@
+{
+    "opts": {
+        "destination": "./docs/js",
+        "recurse": true,
+        "template": "./node_modules/ink-docstrap/template"
+    },
+    "templates": {
+        "theme": "yeti",
+        "linenums": true,
+        "outputSourceFiles": true,
+        "outputSourcePath": true
+    },
+    "source": {
+        "include": ["./assets/js/"],
+        "exclude": ["./assets/js/main.js"]
+    }
+}

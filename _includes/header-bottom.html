@@ -1,0 +1,13 @@
+{% for item in site.data.css %}
+<!-- {{ item.comment }} -->
+<link rel="stylesheet" href="{{ item.href }}">
+{% endfor %}
+<!-- Application Specific -->
+<link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+
+<style>
+	body {
+		padding-top: 60px;
+	}
+
+</style>

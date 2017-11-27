@@ -1,0 +1,6 @@
+{% for item in site.data.javascript %}
+<!-- {{ item.comment }} -->
+<script src="{{ item.src }}"></script>
+{% endfor %}
+<!-- Application Specific -->
+<script src="{{ "/assets/js/main.js" | relative_url }}"></script>

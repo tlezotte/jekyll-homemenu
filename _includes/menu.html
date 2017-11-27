@@ -1,0 +1,42 @@
+{% assign sorted_pages = site.pages | sort:"weight" %}
+<!-- Collect the nav links, forms, and other content for toggling -->
+<ul class="nav navbar-nav">
+	<li data-container="body" data-toggle="popover" data-placement="bottom" data-content="Application"><a href="https://www.google.com">Application</a></li>
+	<li data-container="body" data-toggle="popover" data-placement="bottom" data-content="Github"><a href="https://github.com/"><i class="fa fa-github" aria-hidden="true"></i></a>
+	</li>
+	<li data-container="body" data-toggle="popover" data-placement="bottom" data-content="Amazon Web Services"><a href="https://aws.amazon.com/"><i class="fa fa-amazon" aria-hidden="true"></i></a>
+  </li>
+	<li data-container="body" data-toggle="popover" data-placement="bottom" data-content="WordPress"><a href="https://wordpress.org/"><i class="fa fa-wordpress" aria-hidden="true"></i></a>
+	</li>
+	<li>
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-object-group" aria-hidden="true"></i> <span
+                class="caret"></span></a>
+		<ul class="dropdown-menu">
+			<li><a href="/layout/department.pdf">Department Layout</a></li>
+			<li><a href="/layout/cloud.pdf">Cloud Layout</a></li>
+		</ul>
+	</li>
+	<li id="database">
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-database" aria-hidden="true"></i> <span
+                class="caret"></span></a>
+		<ul class="dropdown-menu">
+			<li><a href="https://www.phpmyadmin.net/">phpMyAdmin</a></li>
+			<li><a href="https://www.webyog.com/product/monyog">monyog</a></li>
+		</ul>
+	</li>
+	<li id="analytics">
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bar-chart" aria-hidden="true"></i> <span
+                class="caret"></span></a>
+		<ul class="dropdown-menu">
+			<li><a href="https://www.google.com/analytics/">Google Analytics</a></li>
+		</ul>
+	</li>
+	<li id="documentation">
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-book" aria-hidden="true"></i> <span
+                class="caret"></span></a>
+		<ul class="dropdown-menu">
+			<li><a href="/styleguide.html">CSS Styleguide</a></li>
+			<li><a href="/jsdoc.html">JavaScript documentation</a></li>
+		</ul>
+	</li>
+</ul>

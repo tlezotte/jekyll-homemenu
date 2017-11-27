@@ -1,0 +1,10 @@
+.git
+.idea
+.vscode
+.sass-cache
+css/*.scss
+node_modules
+.gitignore
+.rsync-exclude
+*.log*
+.DS_Store

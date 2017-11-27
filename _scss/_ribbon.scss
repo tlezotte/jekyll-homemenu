@@ -1,0 +1,39 @@
+// Ribbon
+//
+// Add a Ribbon to a tumbnail image
+// Jekyll will add the modifier_class based on text in .ribbon
+//
+// Markup:
+// <h1 class="ribbon {{modifier_class}}">Ribbon</h1>
+//
+// .offline - Server is Offline
+// .redirect - Server is Redirecting to another
+// .legacy - Server is a Legacy application
+//
+// Styleguide Components.ribbon
+.ribbon {
+  position: relative;
+  padding: 0 0.5em;
+  font-size: 10px;
+  margin: 0 0 0 -0.625em;
+  line-height: 1.875em;
+  height: 20px;
+  color: $dept-lightgray;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  border-radius: 0 0.156em 0.156em 0;
+  background: $dept-red;
+  //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  box-shadow: -1px 2px 3px $color_black;
+}
+.offline {
+  background: $dept-lightgray;
+  color: $color_black;
+}
+.redirect {
+  background: $dept-blue;
+  color: $dept-white;
+}
+.legacy {
+  background: $dept-red;
+  color: $dept-lightgray;
+}

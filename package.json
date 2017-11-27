@@ -1,0 +1,30 @@
+{
+  "name": "department",
+  "version": "1.0.0",
+  "description": "Department Home Page",
+  "main": "index.html",
+  "author": "me",
+  "license": "ISC",
+  "config": {
+    "server": "you.domain.net",
+    "domain": "https://you.domain.net",
+    "home": "/etc/htdocs/www/department",
+    "user": "userapp"
+  },
+  "scripts": {
+    "doc:setup": "mkdir -p docs/js",
+    "docs:css": "kss --config kss-config.json",
+    "doc:js": "jsdoc -c jsdoc-conf.json",
+    "jekyll:build": "jekyll build",
+    "jekyll:min": "uglifyjs _site/assets/js/main.js -c -m -o _site/assets/js/main.min.js --source-map",
+    "jekyll:sync": "rsync -avz --exclude-from '.rsync-exclude' _site/* $npm_package_config_user@$npm_package_config_server:$npm_package_config_home",
+    "deploy": "npm-run-all docs:*;npm-run-all jekyll:*",
+    "serve": "jekyll serve -L",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "ink-docstrap": "^1.3.0",
+    "michelangelo": "^0.5.1"
+  },
+  "dependencies": {}
+}

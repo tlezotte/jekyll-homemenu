@@ -1,0 +1,29 @@
+<ul class="nav navbar-nav navbar-right">
+  {% if site.google_search %}
+	<li>
+		<form class="navbar-form navbar-left" role="search" method="get" <action="https://www.google.com/search">
+			<input type="text" name="q" maxlength="255" value="" class="form-control trans_white" placeholder="Google Search" />
+			<div style="display: none">
+				<input type="submit" value="Google Search" class="btn trans_white" />
+				<input type="checkbox" name="sitesearch" value="" style="display: none" checked/>
+				<input type="checkbox" name="sitesearch" value="{{ site.url }}" style="display: none" />
+			</div>
+		</form>
+  </li>
+  {% endif %}
+	<li>
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ site.name }} <span class="caret"></span></a>
+		<ul class="dropdown-menu">
+			<li><a href="http://www.box.com">Box</a></li>
+			<li><a href="https://www.concur.com/">Concur</a>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">External <span class="caret"></span></a>
+		<ul class="dropdown-menu">
+			<li><a href="https://www.google.com/analytics/">Google Analytics</a></li>
+			<li><a href="https://www.gotomeet.me/">GoToMeeting</a></li>
+		</ul>
+	</li>
+</ul>
