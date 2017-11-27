@@ -14,9 +14,9 @@ title: Department Menu
             <h1 class="ribbon {{ item.status }}">{{ item.status | capitalize }}</h1>
             {% endif %}
 						<a href="{{ item.env[0].url }}" class="hover-menu">
-                            <img src="{{ "/assets/img/{{ item.logo }}" | relative_url }}" alt="{{ item.group }}">
-                            <p class="text-center">{{ item.group }}</p>
-                        </a>
+                <img src="{{ site.baseurl }}/assets/img/{{ item.logo }}" alt="{{ item.group }}">
+                <p class="text-center">{{ item.group }}</p>
+            </a>
 					</div>
 					<div class="icon-links space-around" id="{{ item.group | replace: ' ', '' }}ItemEnv">
             {% for link in item.env %}
@@ -41,9 +41,9 @@ title: Department Menu
             <h1 class="ribbon {{ item.status }}">{{ item.status | capitalize }}</h1>
             {% endif %}
 						<a href="{{ item.env[0].url }}" class="hover-menu">
-                            <img src="{{ "/assets/img/{{ item.logo }}" | relative_url }}" alt="{{ item.group }}">
-                            <p class="text-center">{{ item.group }}</p>
-                        </a>
+                <img src="{{ site.baseurl }}/assets/img/{{ item.logo }}" alt="{{ item.group }}">
+                <p class="text-center">{{ item.group }}</p>
+            </a>
 					</div>
 					<div class="icon-links space-around" id="{{ item.group | replace: ' ', '' }}ItemEnv">
             {% for link in item.env %}
