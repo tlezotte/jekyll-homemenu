@@ -1,5 +1,7 @@
 # Jekyll Home Menu
 
+## [Demo](https://tlezotte.github.io/jekyll-homemenu)
+
 ## Setup your workstation
 Run the setup script to make sure you have the required software.
 
