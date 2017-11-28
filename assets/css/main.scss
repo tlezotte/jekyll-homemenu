@@ -4,8 +4,6 @@
 /// @author Tom LeZotte
 
 $icomoon-font-path: {{ "/assets/fonts" | relative_url }} !default;
-$victr-font-version: "17o7k0";
-$brands-font-version: "9bd2yy";
 
 @import "variables";
 @import "victr_variables";

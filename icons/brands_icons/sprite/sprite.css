@@ -3,14 +3,19 @@
   background-repeat: no-repeat;
   background-image: url(sprite.svg);
 }
-.b-pegasus {
+.b-pivotaltracker {
   width: 32px;
   height: 32px;
   background-position: 0 0;
 }
+.b-statuscake {
+  width: 32px;
+  height: 32px;
+  background-position: -48px 0;
+}
 .b-splunk {
   width: 33px;
   height: 32px;
-  background-position: -48px 0;
+  background-position: -96px 0;
 }
 
