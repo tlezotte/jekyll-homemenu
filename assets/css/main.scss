@@ -8,6 +8,8 @@ $icomoon-font-path: {{ "/assets/fonts" | relative_url }} !default;
 @import "variables";
 @import "victr_variables";
 @import "victr_fonts";
+@import "brands_variables";
+@import "brands_fonts";
 @import "default";
 @import "ribbon";
 @import "hovermenu";
