@@ -1,12 +1,12 @@
-@import "variables";
+@import "brands_variables";
 
 @font-face {
   font-family: 'brands';
-  src:  url('#{$icomoon-font-path}/brands.eot?9bd2yy');
-  src:  url('#{$icomoon-font-path}/brands.eot?9bd2yy#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/brands.ttf?9bd2yy') format('truetype'),
-    url('#{$icomoon-font-path}/brands.woff?9bd2yy') format('woff'),
-    url('#{$icomoon-font-path}/brands.svg?9bd2yy#brands') format('svg');
+  src:  url('#{$icomoon-font-path}/brands.eot?#{$brands-font-version}');
+  src:  url('#{$icomoon-font-path}/brands.eot?#{$brands-font-version}#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/brands.ttf?#{$brands-font-version}') format('truetype'),
+    url('#{$icomoon-font-path}/brands.woff?#{$brands-font-version}') format('woff'),
+    url('#{$icomoon-font-path}/brands.svg?#{$brands-font-version}#brands') format('svg');
   font-weight: normal;
   font-style: normal;
 }
