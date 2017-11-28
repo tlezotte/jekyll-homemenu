@@ -1,6 +1,5 @@
 [{
   "group": "REDCap",
-  "icon": "fa-heartbeat",
   "logo": "redcap.png",
   "env": [{
       "url": "https://redcap.vanderbilt.edu/",
@@ -14,7 +13,6 @@
   }]
 },{
   "group": "StarBRITE",
-  "icon": "fa-user-md",
   "logo": "starbrite.png",
   "env": [{
       "url": "https://starbrite.vanderbilt.edu",
@@ -25,7 +23,6 @@
   }]
 }, {
   "group": "eSMART",
-  "icon": "fa-users",
   "logo": "esmart.png",
   "env": [{
       "url": "https://starbrite.vanderbilt.edu/s/uber/",
@@ -36,7 +33,6 @@
   }]
 }, {
   "group": "ResearchMatch",
-  "icon": "fa-picture-o",
   "logo": "researchmatch.png",
   "env": [{
       "url": "https://www.researchmatch.org/",
@@ -47,7 +43,6 @@
   }]
 }, {
   "group": "Rocket",
-  "icon": "fa-product-hunt",
   "logo": "rocket.png",
   "env": [{
       "url": "https://starbrite.vanderbilt.edu/rocket/index.php",
@@ -57,21 +52,44 @@
       "name": "TEST"
   }]
 }, {
-  "group": "Legacy CME",
-  "icon": "fa-user-md",
-  "logo": "cme.png",
-  "status": "legacy",
+  "group": "Project myCAP",
+  "logo": "my_cap.png",
   "env": [{
-      "url": "https://cme-legacy.mc.vanderbilt.edu/login_n.php",
+      "url": "https://projectmycap.org/",
       "name": "PROD"
+  }, {
+    "url": "https://test.projectmycap.org/",
+    "name": "TEST"
+  }, {
+    "url": "https://dev.projectmycap.org/",
+    "name": "DEV"
   }]
-}, {
-  "group": "Legacy vPEN",
-  "icon": "fa-power-off",
-  "logo": "vstar_pen.png",
-  "status": "offline",
-  "env": [{
-      "url": "https://knowledgemap.mc.vanderbilt.edu/cgi-bin/Portfolio/login.pl",
-      "name": "PROD"
-  }]
+  },{
+    "group": "SD RecordCounter",
+    "logo": "sd_recordcounter.png",
+    "env": [{
+        "url": "https://biovu.vanderbilt.edu/RC/",
+        "name": "PROD"
+    }]
+  },{
+    "group": "RD Discover",
+    "logo": "rd_discover.png",
+    "env": [{
+        "url": "https://biovu2.vanderbilt.edu/rd-discover/",
+        "name": "PROD"
+    }]
+  },{
+    "group": "SD Discover",
+    "logo": "sd_discover.png",
+    "env": [{
+        "url": "https://biovu.vanderbilt.edu/SD/",
+        "name": "PROD"
+    }]
+  },{
+    "group": "Subject Locator",
+    "logo": "subject_locator.png",
+    "env": [{
+        "url": "https://biovu2.vanderbilt.edu/recruit/",
+        "name": "PROD"
+    }]
 }]
