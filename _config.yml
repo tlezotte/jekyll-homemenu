@@ -21,7 +21,7 @@ baseurl: "/victr" # the subpath of your site, e.g. /blog
 url: "https://vanderbilt.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 domain: "github.io"
 name: VICTR
-icon: "v v-vumc"
+icon: "victr v-vumc"
 logo: "department.png"
 ns: "victr"
 google_analytics: "UA-XXXXXXXX-X"
