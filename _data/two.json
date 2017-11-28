@@ -62,13 +62,6 @@
       "name": "PROD"
   }]
 }, {
-  "group": "Nobody Like Me",
-  "logo": "nobodylikeme.png",
-  "env": [{
-      "url": "https://nobodylikeme.org/",
-      "name": "PROD"
-  }]
-}, {
   "group": "Project REDCap",
   "logo": "redcap.png",
   "env": [{
