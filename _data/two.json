@@ -1,15 +1,71 @@
 [{
-    "group": "mySQL",
-    "logo": "mysql.png",
-    "env": [{
-        "url": "https://www.mysql.com/",
-        "name": "PROD"
-    }]
+  "group": "CTSA Central",
+  "logo": "CTSA.png",
+  "env": [{
+      "url": "https://ctsacentral.org/",
+      "name": "PROD"
+  }]
 },{
-    "group": "PHP",
-    "logo": "php.png",
-    "env": [{
-        "url": "http://www.php.net/",
-        "name": "PROD"
-    }]
+  "group": "eMERGE",
+  "logo": "emerge.png",
+  "env": [{
+      "url": "https://emerge.mc.vanderbilt.edu/",
+      "name": "PROD"
+  }]
+}, {
+  "group": "CDS_KB",
+  "logo": "cds_kb.png",
+  "env": [{
+      "url": "https://cdskb.org/",
+      "name": "PROD"
+  }]
+}, {
+  "group": "NoAAC",
+  "logo": "noaac.png",
+  "env": [{
+      "url": "https://noaac.net/",
+      "name": "PROD"
+  }]
+}, {
+  "group": "irb choice",
+  "logo": "irb_choice.png",
+  "env": [{
+      "url": "https://www.irbchoice.org",
+      "name": "PROD"
+  }]
+}, {
+  "group": "mid-south CDRN",
+  "logo": "mid-south.png",
+  "env": [{
+      "url": "https://midsouthcdrn.mc.vanderbilt.edu/",
+      "name": "PROD"
+  }]
+}, {
+  "group": "ARA4US",
+  "logo": "ara4us.png",
+  "env": [{
+      "url": "https://www.ara4us.org/",
+      "name": "PROD"
+  }]
+}, {
+  "group": "myDRUG GENOME",
+  "logo": "MDG.png",
+  "env": [{
+      "url": "https://www.mydruggenome.org/",
+      "name": "PROD"
+  }]
+}, {
+  "group": "TIN",
+  "logo": "tin.png",
+  "env": [{
+      "url": "https://trialinnovationnetwork.org/",
+      "name": "PROD"
+  }]
+}, {
+  "group": "Project REDCap",
+  "logo": "redcap.png",
+  "env": [{
+      "url": "https://projectredcap.org/",
+      "name": "PROD"
+  }]
 }]

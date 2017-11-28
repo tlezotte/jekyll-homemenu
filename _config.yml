@@ -13,17 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Department
-email: you@domain.net
+title: VICTR
+email: tom.lezotte@vumc.org
 description: > # this means to ignore newlines until "baseurl:"
-  Department Home Page
-baseurl: "/jekyll-homemenu" # the subpath of your site, e.g. /blog
-url: "https://tlezotte.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+  VICTR Home Page
+baseurl: "/victr" # the subpath of your site, e.g. /blog
+url: "https://vanderbilt.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 domain: "github.io"
-name: Department
-icon: "fa fa-building-o"
+name: VICTR
+icon: "victr v-vumc"
 logo: "department.png"
-ns: "dept"
+ns: "victr"
 google_analytics: "UA-XXXXXXXX-X"
 google_search: false
 twitter_username:

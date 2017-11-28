@@ -1,43 +1,95 @@
 [{
-    "group": "Apache",
-    "logo": "apache.png",
-    "env": [{
-        "url": "http://www.apache.org/",
-        "name": "PROD"
-    }, {
-        "url": "http://www.apache.org/",
-        "name": "TEST"
-    }, {
-        "url": "http://www.apache.org/",
-        "name": "DEMO"
-    }]
-}, {
-  "group": "PHP",
-  "logo": "php.png",
+  "group": "REDCap",
+  "logo": "redcap.png",
   "env": [{
-      "url": "http://www.php.net/",
+      "url": "https://redcap.vanderbilt.edu/",
       "name": "PROD"
   }, {
-      "url": "http://www.php.net/",
+      "url": "https://redcaptest.vanderbilt.edu/",
       "name": "TEST"
   }, {
-      "url": "http://www.php.net/",
-      "name": "DEV"
+      "url": "https://redcapdemo.vanderbilt.edu/",
+      "name": "DEMO"
+  }]
+},{
+  "group": "StarBRITE",
+  "logo": "starbrite.png",
+  "env": [{
+      "url": "https://starbrite.vanderbilt.edu",
+      "name": "PROD"
+  }, {
+      "url": "https://starbritetest.vanderbilt.edu",
+      "name": "TEST"
   }]
 }, {
-    "group": "git",
-    "logo": "git.png",
-    "status": "legacy",
+  "group": "eSMART",
+  "logo": "esmart.png",
+  "env": [{
+      "url": "https://starbrite.vanderbilt.edu/s/uber/",
+      "name": "PROD"
+  }, {
+      "url": "https://starbritetest.vanderbilt.edu/s/uber/",
+      "name": "TEST"
+  }]
+}, {
+  "group": "ResearchMatch",
+  "logo": "researchmatch.png",
+  "env": [{
+      "url": "https://www.researchmatch.org/",
+      "name": "PROD"
+  },{
+      "url": "https://test.researchmatch.org/",
+      "name": "TEST"
+  }]
+}, {
+  "group": "Rocket",
+  "logo": "rocket.png",
+  "env": [{
+      "url": "https://starbrite.vanderbilt.edu/rocket/index.php",
+      "name": "PROD"
+  }, {
+      "url": "https://starbritetest.vanderbilt.edu/rocket/index.php",
+      "name": "TEST"
+  }]
+}, {
+  "group": "Project myCAP",
+  "logo": "my_cap.png",
+  "env": [{
+      "url": "https://projectmycap.org/",
+      "name": "PROD"
+  }, {
+    "url": "https://test.projectmycap.org/",
+    "name": "TEST"
+  }, {
+    "url": "https://dev.projectmycap.org/",
+    "name": "DEV"
+  }]
+  },{
+    "group": "SD RecordCounter",
+    "logo": "sd_recordcounter.png",
     "env": [{
-        "url": "https://git-scm.com/",
+        "url": "https://biovu.vanderbilt.edu/RC/",
         "name": "PROD"
     }]
-}, {
-    "group": "solr",
-    "logo": "solr.png",
-    "status": "offline",
+  },{
+    "group": "RD Discover",
+    "logo": "rd_discover.png",
     "env": [{
-        "url": "http://lucene.apache.org/solr/",
+        "url": "https://biovu2.vanderbilt.edu/rd-discover/",
+        "name": "PROD"
+    }]
+  },{
+    "group": "SD Discover",
+    "logo": "sd_discover.png",
+    "env": [{
+        "url": "https://biovu.vanderbilt.edu/SD/",
+        "name": "PROD"
+    }]
+  },{
+    "group": "Subject Locator",
+    "logo": "subject_locator.png",
+    "env": [{
+        "url": "https://biovu2.vanderbilt.edu/recruit/",
         "name": "PROD"
     }]
 }]

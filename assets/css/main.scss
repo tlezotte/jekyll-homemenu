@@ -3,7 +3,15 @@
 
 /// @author Tom LeZotte
 
+$icomoon-font-path: {{ "/assets/fonts" | relative_url }} !default;
+$victr-font-version: "17o7k0";
+$brands-font-version: "9bd2yy";
+
 @import "variables";
+@import "victr_variables";
+@import "victr_fonts";
+@import "brands_variables";
+@import "brands_fonts";
 @import "default";
 @import "ribbon";
 @import "hovermenu";

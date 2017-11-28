@@ -6,4 +6,8 @@
 <meta name="author" content="me">
 <link rel="icon" href="favicon.ico">
 
-<title>{{ page.title | site.title }}</title>
+{% if page.title %}
+<title>{{ page.title }}</title>
+{% else %}
+<title>{{ site.title }}</title>
+{% endif %}
