@@ -1,15 +1,15 @@
 @font-face {
   font-family: 'victr';
-  src:  url('fonts/victr.eot?17o7k0');
-  src:  url('fonts/victr.eot?17o7k0#iefix') format('embedded-opentype'),
-    url('fonts/victr.ttf?17o7k0') format('truetype'),
-    url('fonts/victr.woff?17o7k0') format('woff'),
-    url('fonts/victr.svg?17o7k0#victr') format('svg');
+  src:  url('fonts/victr.eot?up8vlp');
+  src:  url('fonts/victr.eot?up8vlp#iefix') format('embedded-opentype'),
+    url('fonts/victr.ttf?up8vlp') format('truetype'),
+    url('fonts/victr.woff?up8vlp') format('woff'),
+    url('fonts/victr.svg?up8vlp#victr') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-.v {
+.victr {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'victr' !important;
   speak: none;
@@ -29,4 +29,16 @@
 }
 .v-redcap:before {
   content: "\e900";
+}
+.v-pegasus:before {
+  content: "\e902";
+}
+.v-esmart:before {
+  content: "\e903";
+}
+.v-researchmatch:before {
+  content: "\e904";
+}
+.v-starbrite:before {
+  content: "\e905";
 }

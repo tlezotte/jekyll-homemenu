@@ -35,23 +35,23 @@ layout: basic
 			<ul class="list">
 				{% for item in site.data.two %}
 				<li id="{{ item.group | replace: ' ', '' }}">
-					<div class="icon-item" id="{{ item.group | replace: ' ', '' }}Item">
-						{% if item.status and item.status != "on" %}
+          <div class="icon-item" id="{{ item.group | replace: ' ', '' }}Item">
+            {% if item.status and item.status != "on" %}
             <h1 class="ribbon {{ item.status }}">{{ item.status | capitalize }}</h1>
             {% endif %}
-						<a href="{{ item.env[0].url }}" class="hover-menu">
+            <a href="{{ item.env[0].url }}" class="hover-menu">
                 <img src="{{ site.baseurl }}/assets/img/{{ item.logo }}" alt="{{ item.group }}">
                 <p class="text-center">{{ item.group }}</p>
             </a>
-					</div>
-					<div class="icon-links space-around" id="{{ item.group | replace: ' ', '' }}ItemEnv">
+          </div>
+          <div class="icon-links space-around" id="{{ item.group | replace: ' ', '' }}ItemEnv">
             {% for link in item.env %}
             {% if forloop.index != 1 %}
             <a href="{{ link.url }}">{{ link.name }}</a>
             {% endif %}
             {% endfor %}
-					</div>
-				</li>
+          </div>
+        </li>
 				{% endfor %}
 			</ul>
 		</div>

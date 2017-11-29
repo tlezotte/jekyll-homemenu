@@ -86,6 +86,31 @@
         "name": "PROD"
     }]
   },{
+    "group": "Airflo",
+    "logo": "airflo.png",
+    "status": "mobile",
+    "env": [{
+        "url": "https://noaac.net/tools/",
+        "name": "PROD"
+    }]
+  },{
+    "group": "PEER",
+    "logo": "peer.png",
+    "env": [{
+        "url": "https://peer.mc.vanderbilt.edu",
+        "name": "PROD"
+    }]
+  },{
+    "group": "eMERGE Sphinx",
+    "logo": "sphinx.png",
+    "env": [{
+        "url": "https://www.emergesphinx.org/",
+        "name": "PROD"
+    }, {
+      "url": "https://test.emergesphinx.org/",
+      "name": "TEST"
+    }]
+  },{
     "group": "Subject Locator",
     "logo": "subject_locator.png",
     "env": [{

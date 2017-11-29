@@ -1,0 +1,36 @@
+.victr {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.v-vumc {
+  width: 39px;
+  height: 32px;
+  background-position: 0 0;
+}
+.v-redcap {
+  width: 32px;
+  height: 32px;
+  background-position: -48px 0;
+}
+.v-pegasus {
+  width: 32px;
+  height: 32px;
+  background-position: -96px 0;
+}
+.v-esmart {
+  width: 32px;
+  height: 32px;
+  background-position: -144px 0;
+}
+.v-researchmatch {
+  width: 32px;
+  height: 32px;
+  background-position: -192px 0;
+}
+.v-starbrite {
+  width: 32px;
+  height: 32px;
+  background-position: -240px 0;
+}
+
