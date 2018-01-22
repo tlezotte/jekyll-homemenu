@@ -17,8 +17,8 @@
     "doc:js": "jsdoc -c jsdoc-conf.json",
     "jekyll:build": "jekyll build",
     "jekyll:min": "uglifyjs _site/assets/js/main.js -c -m -o _site/assets/js/main.min.js --source-map",
-    "jekyll:sync": "rsync -avz --exclude-from '.rsync-exclude' _site/* $npm_package_config_user@$npm_package_config_server:$npm_package_config_home",
-    "deploy": "npm-run-all docs:*;npm-run-all jekyll:*",
+    "sync": "rsync -avz --exclude-from '.rsync-exclude' _site/* $npm_package_config_user@$npm_package_config_server:$npm_package_config_home",
+    "deploy": "npm-run-all docs:*;npm-run-all jekyll:*;npm sync",
     "serve": "jekyll serve -L",
     "test": "mocha"
   },
